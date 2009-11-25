@@ -1,0 +1,22 @@
+\select@language {brazilian}
+\contentsline {chapter}{\numberline {1}Levantamento}{6}{chapter.1}
+\contentsline {section}{\numberline {1.1}Pr\'o Reitoria de P\'os-Gradua\c c\~ao, Pesquisa, Extens\~ao e A\c c\~ao Comunit\'aria}{6}{section.1.1}
+\contentsline {subsection}{\numberline {1.1.1}Pesquisa}{6}{subsection.1.1.1}
+\contentsline {subsubsection}{\numberline {1.1.1.1}Inicia\c c\~ao Cient\IeC {\'\i }fica}{7}{subsubsection.1.1.1.1}
+\contentsline {section}{\numberline {1.2}Descri\c c\~ao dos Procedimentos Atuais}{7}{section.1.2}
+\contentsline {section}{\numberline {1.3}Expectativa do Usu\'ario com o Novo Sistema}{8}{section.1.3}
+\contentsline {section}{\numberline {1.4}Dicion\'ario de Dados}{9}{section.1.4}
+\contentsline {chapter}{\numberline {2}Projeto L\'ogico}{10}{chapter.2}
+\contentsline {chapter}{\numberline {3}Projeto F\IeC {\'\i }sico}{11}{chapter.3}
+\contentsline {chapter}{\numberline {4}Implementa\c c\~ao}{12}{chapter.4}
+\contentsline {chapter}{Refer{\^e}ncias}{13}{chapter.4}
+\setbox \@tempboxa \hbox {{{\sffamily \textbf {\MakeUppercase {Ap{\^e}ndice} }}}}\deletex@chapnumindent \wd \@tempboxa \setbox \@tempboxa \box \voidb@x \advance \deletex@chapnumindent 1.8em\relax 
+\contentsline {chapter}{\numberline {\MakeUppercase {Ap{\^e}ndice} A}Instru\c c\~oes}{14}{chapter.1}
+\contentsline {chapter}{\numberline {\MakeUppercase {Ap{\^e}ndice} B}Especifica\c c\~ao dos casos de uso }{17}{chapter.2}
+\contentsline {section}{\numberline {B.1}Caso de Uso - Cadastrar Oferta de Disciplina}{17}{section.2.1}
+\contentsline {section}{\numberline {B.2}Caso de Uso - Efetuar Pr\'e-inscri\c c\~ao em Discipl}{17}{section.2.2}
+\contentsline {chapter}{\numberline {\MakeUppercase {Ap{\^e}ndice} C}Caracteristicas}{19}{chapter.3}
+\contentsline {chapter}{\numberline {\MakeUppercase {Ap{\^e}ndice} D}Rastreabilidade das necessidades X Caracter\IeC {\'\i }sti}{20}{chapter.4}
+\contentsline {chapter}{\numberline {\MakeUppercase {Ap{\^e}ndice} E}Rastreabilidade dos casos de uso $\times $ carac}{23}{chapter.5}
+\contentsline {chapter}{\numberline {\MakeUppercase {Ap{\^e}ndice} F}Caracter\IeC {\'\i }sticas da P\'os-gradua\c c\~ao \\Stricto Sens}{26}{chapter.6}
+\setbox \@tempboxa \hbox {{{\sffamily \textbf {\MakeUppercase {Anexo} }}}}\deletex@chapnumindent \wd \@tempboxa \setbox \@tempboxa \box \voidb@x \advance \deletex@chapnumindent 1.8em\relax 

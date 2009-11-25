@@ -1,0 +1,346 @@
+\ProvidesLanguage{deletex_pt_BR}[2007/03/30 v1.3.0 DeLeTex brazilian portuguese support]
+\@namedef{captionsbrazilian}{%
+	\def\bibname{Refer{\^e}ncias}%
+	\def\refname{\bibname}%
+	\def\abstractname{Resumo}%
+	\def\appendixname{Ap{\^e}ndice}%
+	\def\contentsname{Sum{\'a}rio}%
+	\def\listfigurename{Lista de Ilustra\c{c}\~oes}%
+	\def\listtablename{Lista de Tabelas}%
+	\def\figurename{Figura}%
+	\def\tablename{Tabela}%
+	\def\advisorname{\orientador}
+	\def\coadvisorname{\coorientador}%
+	\def\examinername{Banca Examinadora}%
+	\def\listabbrvname{Lista de Abreviaturas}%
+	\def\listsymbolname{Lista de S{\'\i}mbolos}%
+	\def\glossarioname{Gloss{\'a}rio}%
+	\def\annexname{Anexo}%
+	\def\indexname{{\'I}ndice}%
+	\def\keywordsname{Palavras-chave}%
+	\def\IEEEkeywordsname{\keywordsname}%
+	\def\cipcaption{CIP -- CATALOGA{\c{C}}{\~A}O NA PUBLICA{\c{C}}{\~A}O}%
+	\def\byname{por}%
+
+	\def\PPGEEcoordname{}%
+	\def\DELETheadname{}%
+
+\def\projfttname{ Projeto (pesquisa)}%
+	\def\projfttspecificinfo{%
+		Projeto de automa{\c{c}}{\~a}o das atividades da ProPPE na coordenadoria de pesquisa e extens{\~a}o a ser desenvolvido na \ftt ~do  \cua	.
+		
+		%\'Area de concentra\c{c}\~ao: Sistema de Informa{\c{c}}{\~a}o 
+		
+	}%
+	\def\projfttapproval{%
+		Este Projeto Final foi julgado adequado para a
+		aprova\c{c}\~ao na disciplina Trabalho de Curso I do Bacharelado em Sistemas 	de Informa{\c{c}}{\~a}o e aprovado em sua forma final pelo Orientador e	pela Banca Examinadora do \cua.
+	}%
+
+
+\def\modeloname{ Projeto (monografico)}%
+	\def\modelospecificinfo{%
+				Natureza (Tese, Dissertação, Trabalho de conclusão de curso e outros)e objetivo (aprovação em disciplina, grau pretendido e outros); nome da instituição a que é submetido.\cite[Ítem 4.1.3.1][p.~4]{ABNT:NBR-14724-2005}\\
+		
+		\'Area de concentra\c{c}\~ao: Coloque aqui sua area 
+		
+	}%
+	\def\modeloapproval{%
+		Natureza, objetivo, nome da instituição a que é submetido, área de concentração \cite[Ítem 4.1.5][p.~5]{ABNT:NBR-14724-2005}.
+	}%
+%%%Modelo normatizado pela ABNT
+
+\def\propmesname{ Projeto (graduação)}%
+	\def\propmesspecificinfo{%
+				Projeto de Pesquisa à ProPPE, para a participa{\c{c}}{\~a}o 
+		no Programa de Mestrado em Sociedade, Tecnologia e Meio Ambiente do \entidade ~-~\sigla.
+		
+		%\'Area de concentra\c{c}\~ao: Sistema de Informa{\c{c}}{\~a}o 
+		
+	}%
+	\def\propmesapproval{%
+		Este Projeto Final foi julgado adequado para a
+		aprova\c{c}\~ao na disciplina Trabalho de Curso I do Bacharelado em Sistemas 	de Informa{\c{c}}{\~a}o e aprovado em sua forma final pelo Orientador e	pela Banca Examinadora do \cua.
+	}%
+
+\def\pbppname{ Projeto (graduação)}%
+	\def\pbppspecificinfo{%
+				Projeto de Pesquisa à ProPPE, para a participa{\c{c}}{\~a}o 
+		no Programa de Bolsa de Professor Pesquisador do \entidade ~-~\sigla.
+		
+		%\'Area de concentra\c{c}\~ao: Sistema de Informa{\c{c}}{\~a}o 
+		
+	}%
+	\def\pbppapproval{%
+		Este Projeto Final foi julgado adequado para a
+		aprova\c{c}\~ao na disciplina Trabalho de Curso I do Bacharelado em Sistemas 	de Informa{\c{c}}{\~a}o e aprovado em sua forma final pelo Orientador e	pela Banca Examinadora do \cua.
+	}%
+
+
+\def\pbicname{ Projeto (graduação)}%
+	\def\pbicspecificinfo{%
+		Subprojeto de Pesquisa à ProPPE, para a participa{\c{c}}{\~a}o 
+		no Programa de Bolsa de Iniciação Cientifica do \entidade ~-~\sigla.
+		
+		
+		%\'Area de concentra\c{c}\~ao: Ci\^encia da Computa{\c{c}}{\~a}o 
+		
+	}%
+	%\def\pbicapproval{%
+		%Este Projeto Final foi julgado adequado para a
+		%aprova\c{c}\~ao na disciplina Trabalho de Curso I do Bacharelado em Ci\^encia da Computa{\c{c}}{\~a}o
+		%e aprovado em sua forma final pelo Orientador e
+		%pela Banca Examinadora.
+	%}%
+
+\def\projccname{ Projeto (graduação)}%
+	\def\projccspecificinfo{%
+		Projeto Final de Curso do Bacharelado em Ci\^encia da Computa{\c{c}}{\~a}o  do
+		\ppgee\ \ufrgs\ como parte dos requisitos para a obten{\c{c}}{\~a}o do t\'{\i}tulo 
+		de Bacharel em Ci\^encia da Computa{\c{c}}{\~a}o.
+		
+		%\'Area de concentra\c{c}\~ao: Ci\^encia da Computa{\c{c}}{\~a}o 
+		
+	}%
+	\def\projccapproval{%
+		Este Projeto Final foi julgado adequado para a
+		aprova\c{c}\~ao na disciplina Trabalho de Curso I do Bacharelado em Ci\^encia da Computa{\c{c}}{\~a}o
+		e aprovado em sua forma final pelo Orientador e
+		pela Banca Examinadora.
+	}%
+
+	\def\projsiname{ Projeto (graduação)}%
+	\def\projsispecificinfo{%
+		Projeto Final de Curso do Bacharelado em Sistemas de Informação do
+		apresentado como requisito parcial para a obten{\c{c}}{\~a}o do t\'{\i}tulo de 
+		Bacharel em Sistemas de Informa{\c{c}}{\~a}o.
+		
+		%\'Area de concentra\c{c}\~ao: Sistema de Informação
+		
+	}%
+	\def\projsiapproval{%
+		Este Projeto Final foi julgado adequado para a
+		aprova\c{c}\~ao na disciplina Trabalho de Curso I do Bacharelado em Sistemas 
+		de Informa{\c{c}}{\~a}o e aprovado em sua forma final pelo Orientador e
+		pela Banca Examinadora do \ufrgs.
+	}%
+
+	\def\tcccname{ Monografia (graduação)}%
+	\def\tcccspecificinfo{%
+		Trabalho de conclusão de Curso apresentado ao Curso de Ciência da Computação do
+		\ppgee\ \ufrgs\ como parte dos requisitos para a
+		obten{\c{c}}{\~a}o do t\'{\i}tulo de Bacharel em Ciência da Computação.
+		
+		\'Area de concentra\c{c}\~ao: Ciência da Computação
+		
+	}%
+	\def\tcccapproval{%
+		Este Trabalho de Conclusão foi julgado adequado para a
+		obten\c{c}\~ao do t\'{\i}tulo de Bacharel em Ciência da Computação
+		e aprovado em sua forma final pelo Orientador e
+		pela Banca Examinadora.
+	}%
+
+	\def\tcsiname{ Monografia (graduação)}%
+	\def\tcsispecificinfo{%
+		Trabalho de conclusão de Curso apresentado ao Curso de Sistemas de Informaç\~{a}o do
+		\ppgee\ \ufrgs\ como parte dos requisitos para a
+		obten{\c{c}}{\~a}o do t\'{\i}tulo de Bacharel em Sistemas de Informação.
+		
+		\'Area de concentra\c{c}\~ao: Sistemas de Informação
+		
+	}%
+	\def\tcsiapproval{%
+		Este Trabalho de Conclusão foi julgado adequado para a
+		obten\c{c}\~ao do t\'{\i}tulo de Bacharel em Sistemas de Informação
+		e aprovado em sua forma final pelo Orientador e
+		pela Banca Examinadora.
+	}%
+
+	\def\dissname{Disserta{\c{c}}{\~a}o (mestrado)}%
+	\def\dissspecificinfo{%
+		Dissertação de mestrado apresentada ao Programa de Pós-Graduação em Sociedade,Tecnologia e Meio Ambiente do
+		\ppgee\ \ufrgs\ como parte dos requisitos para a
+		obten{\c{c}}{\~a}o do t\'{\i}tulo de Mestre em Tecnologia.
+		
+		\'Area de concentra\c{c}\~ao: Ciência da Computação
+		
+	}%
+	\def\dissapproval{%
+		Esta Disserta\c{c}\~ao foi julgada adequada para a
+		obten\c{c}\~ao do t\'{\i}tulo de Mestre em Tecnologia
+		e aprovada em sua forma final pelo Orientador e
+		pela Banca Examinadora.
+	}%
+
+	\def\tesename{Tese (doutorado)}%
+	\def\tesespecificinfo{%
+		Tese de doutorado apresentada ao
+		\ppgee\ da \ufrgs\ como parte dos requisitos para a
+		obten{\c{c}}{\~a}o do t\'{\i}tulo de Doutor em Engenharia El\'etrica.\\
+		
+		\'Area de concentra\c{c}\~ao: Automa\c{c}\~ao e
+		Instrumenta\c{c}\~ao Eletro-Eletr\^onica
+	}%
+	\def\teseapproval{%
+		Esta tese foi julgada adequada para a
+		obten\c{c}\~ao do t\'{\i}tulo de Doutor em Engenharia
+		El\'etrica e aprovada em sua forma final pelo Orientador e
+		pela Banca Examinadora.
+	}%
+
+	\def\planodoutoradospecificinfo{Plano de Curso para Doutorado}%
+
+	\def\proptesespecificinfo{Proposta de Tese de Doutorado}%
+
+	\def\tcname{Trabalho de Conclus{\~a}o (Mestrado)}%
+	\def\tcspecificinfo{%
+		Trabalho de conclus\~ao apresentado
+		como parte dos requisitos para a
+		obten{\c{c}}{\~a}o do t\'{\i}tulo de Mestre em Engenharia
+		El\'etrica.
+	}%
+
+	\def\rpname{Relat{\'o}rio de Pesquisa}%
+	\def\financname{Financiamento}%
+
+	\def\especname{Monografia (especializa\c{c}\~ao)}%
+	\def\especcoursename{Curso de Especializa\c{c}\~ao em}%
+	\def\especcoordname{Coordenador do}
+	\def\especspecificinfo{%
+		Monografia de conclus\~ao de curso apresentada
+		como parte dos requisitos para a
+		obten{\c{c}}{\~a}o do t\'{\i}tulo de Especialista.
+	}%
+
+	\def\diplelespecificinfo{%
+		Projeto de Diploma\c{c}\~ao apresentado ao
+		\delet\ da \ufrgs\ como parte dos requisitos para a
+		obten{\c{c}}{\~a}o do t\'{\i}tulo de Engenheiro Eletricista.
+	}%
+	\def\diplecpspecificinfo{%
+		Trabalho de Diploma\c{c}\~ao apresentado ao
+		\delet\ da \ufrgs\ como parte dos requisitos para a
+		obten{\c{c}}{\~a}o do t\'{\i}tulo de Engenheiro de Computa\c{c}\~ao.
+	}%
+	\def\dipleleapproval{%
+		Este Projeto foi julgado adequado para a
+		obten\c{c}\~ao dos cr\'editos da Disciplina Projeto de
+		Diploma\c{c}\~ao do \delet\ e aprovado em sua forma final pelo
+		Orientador e pela Banca Examinadora.
+	}%
+	\def\diplecpapproval{%
+		Este Trabalho foi julgado adequado para a
+		obten\c{c}\~ao dos cr\'editos da Disciplina Trabalho de
+		Diploma\c{c}\~ao do \delet\ e aprovado em sua forma final pelo
+		Orientador e pela Banca Examinadora.
+	}%
+
+	\def\estspecificinfo{%
+		Relat\'orio de Est\'agio Supervisionado apresentado ao
+		\delet\ da \ufrgs\ como parte dos requisitos para a
+		obten{\c{c}}{\~a}o do t\'{\i}tulo de Engenheiro Eletricista.
+	}%
+	\def\estapproval{%
+      	\begin{center}
+			\MakeUppercase{\bf Folha de Avalia\c{c}\~ao}
+		\end{center}
+
+		Esta folha resume a avalia\c{c}\~ao do est\'agio feita pelo
+		pr\'oprio aluno, pelo supervisor, pelo orientador e pela
+		banca examinadora, que tamb\'em atribui o conceito final do
+		aluno nesta disciplina.
+
+		\begin{enumerate}
+		\item Preencher o campo coment\'ario, quando achar necess\'ario ou adequado;
+		\item Preencher o campo "Conceito" com A, B, C, ou D, de
+		acordo com a sua avalia\c{c}\~ao: excelente, m\'edio
+		superior, m\'edio ou insuficiente, respectivamente.
+		\end{enumerate}
+
+		\noindent\MakeUppercase{\bf Auto Avalia\c{c}\~ao:} Conceito (\hspace{1cm})\\
+
+		\noindent Assinatura do Aluno:\hrulefill~Data:\underline{\hspace{1cm}}/\underline{\hspace{1cm}}/\underline{\hspace{1cm}}\\
+
+		\noindent Coment\'ario:\hrulefill
+
+		\noindent\hrulefill\\
+
+		\noindent\MakeUppercase{\bf Avalia\c{c}\~ao do Supervisor:} Conceito (\hspace{1cm})\\
+
+		\noindent Nome: \hrulefill
+
+		\noindent Assinatura:\hrulefill~Data:\underline{\hspace{1cm}}/\underline{\hspace{1cm}}/\underline{\hspace{1cm}}\\
+
+		\noindent Coment\'ario:\hrulefill
+
+		\noindent\hrulefill\\
+
+		\noindent\MakeUppercase{\bf Avalia\c{c}\~ao do Orientador:} Conceito (\hspace{1cm})\\
+
+		\noindent Nome: \hrulefill
+
+		\noindent Assinatura:\hrulefill~Data:\underline{\hspace{1cm}}/\underline{\hspace{1cm}}/\underline{\hspace{1cm}}\\
+
+		\noindent Coment\'ario:\hrulefill
+
+		\noindent\hrulefill\\
+
+		\noindent \MakeUppercase{\bf Avalia\c{c}\~ao da Banca Examinadora}\\
+
+		\noindent \begin{tabular}{|p{7.5cm}|p{4.0cm}|p{3.0cm}|}
+		\hline
+		%\begin{center}Nome do membro da banca\end{center} & \begin{center}Assinatura\end{center} &\begin{center}Conceito\end{center}\\
+		\hspace{1.3cm}Nome do membro da banca & \hspace{1cm}Assinatura & \hspace{0.8cm}Conceito\\
+		\hline
+		& &\\
+		\hline
+		& & \\
+		\hline
+		& & \\
+		\hline
+		Conceito da banca & &\\
+		\hline
+		\end{tabular}\\
+		\vspace{1cm}
+
+		\noindent {\bf Conceito final atribu\'{\i}do ao aluno (\hspace{1cm})}\\
+      	\vfill
+      	\hfill\@city, \underline{\hspace{1.5cm}}de\underline{\hspace{4.5cm}}de\underline{\hspace{2.0cm}}.
+	}%
+
+	\def\tispecificinfo{%
+		Trabalho Individual\@ifundefined{@tirelease}{}{~\@tirelease}\\
+		\@ifundefined{@tinumber}{}{TI-\@tinumber}
+	}%
+
+	\def\pepspecificinfo{%
+		Plano de Estudos e Pesquisa
+	}%
+
+	\def\phonename{Fone}%
+
+	\def\plantitlename{Plano de Ensino}
+	\def\plandatename{Per{\'\i}odo Letivo}
+	\def\plancoursename{Disciplina}
+	\def\plancreditsname{Cr{\'e}ditos}
+	\def\plantypename{Car{\'a}ter}
+	\def\planregentname{Professor Regente}
+	\def\planweekhoursname{Carga hor{\'a}ria}
+	\def\planprereqname{Pr{\'e}-requisitos}
+	\def\planschedulename{Hor{\'a}rios}
+	\def\planbibname{Bibliografia B{\'a}sica}
+}
+
+
+\@namedef{datebrazilian}{%
+	\def\today{\number\day\space de\space\monthname\space de\space\number\year}%
+	\def\monthname{%
+		\ifcase\month\or%
+			janeiro\or fevereiro\or mar{\c{c}}o\or abril\or%
+			maio\or junho\or julho\or agosto\or setembro\or%
+			outubro\or novembro\or dezembro%
+		\fi%
+	}%
+	\def\delet@date{\@publmonth\ de~\@publyear}%
+}

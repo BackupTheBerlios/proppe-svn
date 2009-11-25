@@ -1,0 +1,685 @@
+This is pdfeTeX, Version 3.141592-1.30.6-2.2 (MiKTeX 2.5) (preloaded format=pdflatex 2009.9.17)  25 NOV 2009 08:50
+entering extended mode
+**C:/Documents*and*Settings/alvaro/Desktop/Projeto*ProPPE/Repositório*Tidia/Projeto*em*Latex/Documento*de*Requisito/Proj
+etoPROPPE/ProjetoPROPPE.tex
+
+("C:\Documents and Settings\alvaro\Desktop\Projeto ProPPE\Repositório Tidia\Projeto em Latex\Documento de Requisito\Proj
+etoPROPPE\ProjetoPROPPE.tex"
+LaTeX2e <2005/12/01>
+Babel <v3.8g> and hyphenation patterns for english, dumylang, nohyphenation, german, ngerman, french, loaded.
+(deletex.cls
+Document Class: deletex 2007/03/30 v1.3.0 DeleTeX class - Documents for DELET/EE/UFRGS
+("C:\Arquivos de programas\MiKTeX 2.5\tex\latex\base\report.cls"
+Document Class: report 2005/09/16 v1.4f Standard LaTeX document class
+("C:\Arquivos de programas\MiKTeX 2.5\tex\latex\base\size12.clo"
+File: size12.clo 2005/09/16 v1.4f Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+("C:\Arquivos de programas\MiKTeX 2.5\tex\generic\babel\babel.sty"
+Package: babel 2005/05/21 v3.8g The Babel package
+
+*************************************
+* Local config file bblopts.cfg used
+*
+("C:\Arquivos de programas\MiKTeX 2.5\tex\latex\00miktex\bblopts.cfg"
+File: bblopts.cfg 2006/07/31 v1.0 MiKTeX 'babel' configuration
+)
+("C:\Arquivos de programas\MiKTeX 2.5\tex\generic\babel\english.ldf"
+Language: english 2005/03/30 v3.3o English support from the babel system
+
+("C:\Arquivos de programas\MiKTeX 2.5\tex\generic\babel\babel.def"
+File: babel.def 2005/05/21 v3.8g Babel common definitions
+\babel@savecnt=\count88
+\U@D=\dimen103
+)
+\l@british = a dialect from \language\l@english 
+\l@UKenglish = a dialect from \language\l@english 
+\l@canadian = a dialect from \language\l@american 
+\l@australian = a dialect from \language\l@british 
+\l@newzealand = a dialect from \language\l@british 
+)
+("C:\Arquivos de programas\MiKTeX 2.5\tex\generic\babel\portuges.ldf"
+Language: portuges 2005/03/31 v1.2p Portuguese support from the babel system
+
+
+Package babel Warning: No hyphenation patterns were loaded for
+(babel)                the language `Portuguese'
+(babel)                I will use the patterns loaded for \language=0 instead.
+
+\l@portuges = a dialect from \language0
+\l@brazilian = a dialect from \language\l@portuges 
+Package babel Info: Making " an active character on input line 145.
+)) (deletex_pt_BR.ldf
+Language: deletex_pt_BR 2007/03/30 v1.3.0 DeLeTex brazilian portuguese support
+) (deletex_en.ldf
+Language: deletex_en 2007/03/30 v1.3.0 DeLeTex english support
+) ("C:\Arquivos de programas\MiKTeX 2.5\tex\latex\lastpage\lastpage.sty"
+Package: lastpage 1994/06/25 v0.1b LaTeX2e package for refs to last page number (JPG)
+)
+("C:\Arquivos de programas\MiKTeX 2.5\tex\latex\tools\indentfirst.sty"
+Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
+)
+("C:\Arquivos de programas\MiKTeX 2.5\tex\latex\base\fontenc.sty"
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+("C:\Arquivos de programas\MiKTeX 2.5\tex\latex\base\t1enc.def"
+File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
+))
+("C:\Arquivos de programas\MiKTeX 2.5\tex\latex\psnfss\times.sty"
+Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
+) (deletexdefs.sty
+Package: deletexdefs 2007/03/30 v1.3.0 deletexdef - Definitions for DELET/EE/UFRGS
+
+("C:\Arquivos de programas\MiKTeX 2.5\tex\latex\graphics\graphicx.sty"
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Arquivos de programas\MiKTeX 2.5\tex\latex\graphics\keyval.sty"
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+("C:\Arquivos de programas\MiKTeX 2.5\tex\latex\graphics\graphics.sty"
+Package: graphics 2006/02/20 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Arquivos de programas\MiKTeX 2.5\tex\latex\graphics\trig.sty"
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+("C:\Arquivos de programas\MiKTeX 2.5\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2005/12/29 v1.2 MiKTeX 'graphics' configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 90.
+
+("C:\Arquivos de programas\MiKTeX 2.5\tex\latex\graphics\pdftex.def"
+File: pdftex.def 2006/08/14 v0.03t Graphics/color for pdfTeX
+\Gread@gobject=\count89
+))
+\Gin@req@height=\dimen104
+\Gin@req@width=\dimen105
+))
+("C:\Arquivos de programas\MiKTeX 2.5\tex\latex\natbib\natbib.sty"
+Package: natbib 2006/09/06 7.4a (PWD)
+\bibhang=\skip43
+\bibsep=\skip44
+LaTeX Info: Redefining \cite on input line 541.
+\c@NAT@ctr=\count90
+)
+("C:\Arquivos de programas\MiKTeX 2.5\tex\latex\subfigure\subfigure.sty"
+Package: subfigure 2002/07/30 v2.1.4 subfigure package
+\subfigtopskip=\skip45
+\subfigcapskip=\skip46
+\subfigcaptopadj=\dimen106
+\subfigbottomskip=\skip47
+\subfigcapmargin=\dimen107
+\subfiglabelskip=\skip48
+\c@subfigure=\count91
+\c@lofdepth=\count92
+\c@subtable=\count93
+\c@lotdepth=\count94
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+("C:\Arquivos de programas\MiKTeX 2.5\tex\latex\subfigure\subfigure.cfg")
+\subfig@top=\skip49
+\subfig@bottom=\skip50
+)
+("C:\Arquivos de programas\MiKTeX 2.5\tex\latex\tools\longtable.sty"
+Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
+\LTleft=\skip51
+\LTright=\skip52
+\LTpre=\skip53
+\LTpost=\skip54
+\LTchunksize=\count95
+\LTcapwidth=\dimen108
+\LT@head=\box26
+\LT@firsthead=\box27
+\LT@foot=\box28
+\LT@lastfoot=\box29
+\LT@cols=\count96
+\LT@rows=\count97
+\c@LT@tables=\count98
+\c@LT@chunks=\count99
+\LT@p@ftn=\toks15
+)
+("C:\Arquivos de programas\MiKTeX 2.5\tex\latex\base\inputenc.sty"
+Package: inputenc 2006/05/05 v1.1b Input encoding file
+\inpenc@prehook=\toks16
+\inpenc@posthook=\toks17
+
+("C:\Arquivos de programas\MiKTeX 2.5\tex\latex\base\latin1.def"
+File: latin1.def 2006/05/05 v1.1b Input encoding file
+))
+("C:\Arquivos de programas\MiKTeX 2.5\tex\latex\float\float.sty"
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count100
+\float@exts=\toks18
+\float@box=\box30
+\@float@everytoks=\toks19
+\@floatcapt=\box31
+)
+("C:\Arquivos de programas\MiKTeX 2.5\tex\latex\ltxmisc\url.sty"
+\Urlmuskip=\muskip10
+Package: url 2005/06/27  ver 3.2  Verb mode for urls, etc.
+)
+("C:\Arquivos de programas\MiKTeX 2.5\tex\latex\tools\enumerate.sty"
+Package: enumerate 1999/03/05 v3.00 enumerate extensions (DPC)
+\@enLab=\toks20
+)
+("C:\Arquivos de programas\MiKTeX 2.5\tex\latex\base\makeidx.sty"
+Package: makeidx 2000/03/29 v1.0m Standard LaTeX package
+)
+("C:\Arquivos de programas\MiKTeX 2.5\tex\latex\graphics\color.sty"
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+
+("C:\Arquivos de programas\MiKTeX 2.5\tex\latex\00miktex\color.cfg"
+File: color.cfg 2005/12/29 v1.1 MiKTeX 'color' configuration
+)
+Package color Info: Driver file: pdftex.def on input line 130.
+)
+("C:\Arquivos de programas\MiKTeX 2.5\tex\latex\graphics\lscape.sty"
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+)
+("C:\Arquivos de programas\MiKTeX 2.5\tex\latex\rotating\rotating.sty"
+Package: rotating 1997/09/26 v2.13 Rotation package
+
+("C:\Arquivos de programas\MiKTeX 2.5\tex\latex\base\ifthen.sty"
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\c@r@tfl@t=\count101
+\rot@float@box=\box32
+)
+("C:\Arquivos de programas\MiKTeX 2.5\tex\generic\dvips\rotate.sty"
+\rotdimen=\dimen109
+)
+("C:\Arquivos de programas\MiKTeX 2.5\tex\latex\eso-pic\eso-pic.sty"
+Package: eso-pic 2006/07/14 v1.1d eso-pic (RN)
+
+("C:\Arquivos de programas\MiKTeX 2.5\tex\latex\ms\everyshi.sty"
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+("C:\Arquivos de programas\MiKTeX 2.5\tex\latex\tools\verbatim.sty"
+Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks21
+\verbatim@line=\toks22
+\verbatim@in@stream=\read1
+)
+("C:\Arquivos de programas\MiKTeX 2.5\tex\latex\algorithm2e\algorithm2e.sty"
+Package: algorithm2e 2005/10/04 v3.9 algorithms environments
+\c@AlgoLine=\count102
+
+("C:\Arquivos de programas\MiKTeX 2.5\tex\latex\tools\xspace.sty"
+Package: xspace 2006/05/08 v1.12 Space after command names (DPC,MH)
+)
+********************************************************
+Package `algorithm2e' Release 3.9 -- october 04 2005 --
+- algorithm2e-announce@lirmm.fr mailing list for announcement about releases
+- algorithm2e-discussion@lirmm.fr mailing list for discussion about package
+subscribe by emailing sympa@lirmm.fr with 'subscribe <list> <firstname name>'
+- Author: Christophe Fiorio (fiorio@lirmm.fr)
+********************************************************
+\skiptotal=\skip55
+\skiprule=\skip56
+\skiphlne=\skip57
+\skiptext=\skip58
+\skiplength=\skip59
+\algomargin=\skip60
+\skipalgocfslide=\skip61
+\algowidth=\dimen110
+\inoutsize=\dimen111
+\inoutline=\dimen112
+\algocf@inoutbox=\box33
+\algocf@inputbox=\box34
+\AlCapSkip=\skip62
+\AlCapHSkip=\skip63
+\algocf@capbox=\box35
+\c@algocfline=\count103
+\c@algocf=\count104
+\algocf@algoframe=\box36
+\algocf@algobox=\box37
+) ("C:\Arquivos de programas\MiKTeX 2.5\tex\latex\fancyvrb\fancyvrb.sty"
+Package: fancyvrb 1998/07/17
+
+Style option: `fancyvrb' v2.6, with DG/SPQR fixes <1998/07/17> (tvz)
+\FV@CodeLineNo=\count105
+\FV@InFile=\read2
+\FV@TabBox=\box38
+\c@FancyVerbLine=\count106
+\FV@StepNumber=\count107
+\FV@OutFile=\write3
+
+No file fancyvrb.cfg.
+) ("C:\Arquivos de programas\MiKTeX 2.5\tex\latex\hyperref\hyperref.sty"
+Package: hyperref 2006/12/30 v6.75k Hypertext links for LaTeX
+\@linkdim=\dimen113
+\Hy@linkcounter=\count108
+\Hy@pagecounter=\count109
+
+("C:\Arquivos de programas\MiKTeX 2.5\tex\latex\hyperref\pd1enc.def"
+File: pd1enc.def 2006/12/30 v6.75k Hyperref: PDFDocEncoding definition (HO)
+)
+("C:\Arquivos de programas\MiKTeX 2.5\tex\latex\00miktex\hyperref.cfg"
+File: hyperref.cfg 2006/02/14 v1.1 MiKTeX 'hyperref' configuration
+)
+("C:\Arquivos de programas\MiKTeX 2.5\tex\latex\oberdiek\kvoptions.sty"
+Package: kvoptions 2006/08/22 v2.4 Connects package keyval with LaTeX options (HO)
+)
+Package hyperref Info: Hyper figures OFF on input line 2269.
+Package hyperref Info: Link nesting OFF on input line 2274.
+Package hyperref Info: Hyper index ON on input line 2277.
+Package hyperref Info: Plain pages OFF on input line 2284.
+Package hyperref Info: Backreferencing OFF on input line 2289.
+
+Implicit mode ON; LaTeX internals redefined
+Package hyperref Info: Bookmarks ON on input line 2419.
+LaTeX Info: Redefining \url on input line 2574.
+\Fld@menulength=\count110
+\Field@Width=\dimen114
+\Fld@charsize=\dimen115
+\Choice@toks=\toks23
+\Field@toks=\toks24
+Package hyperref Info: Hyper figures OFF on input line 3052.
+Package hyperref Info: Link nesting OFF on input line 3057.
+Package hyperref Info: Hyper index ON on input line 3060.
+Package hyperref Info: backreferencing OFF on input line 3067.
+Package hyperref Info: Link coloring OFF on input line 3072.
+\Hy@abspage=\count111
+\c@Item=\count112
+\c@Hfootnote=\count113
+)
+*hyperref using default driver hpdftex*
+("C:\Arquivos de programas\MiKTeX 2.5\tex\latex\hyperref\hpdftex.def"
+File: hpdftex.def 2006/12/30 v6.75k Hyperref driver for pdfTeX
+\Fld@listcount=\count114
+)
+\deletex@topmargin=\skip64
+\deletex@pagenummargin=\skip65
+\deletex@bottommargin=\skip66
+\deletex@sidemargin=\skip67
+\c@deletex@authorcount=\count115
+\c@deletex@examinercount=\count116
+\c@deletex@examinerinfocount=\count117
+\c@kwcounter=\count118
+\titlepagewinwidth=\skip68
+\titlepagewinheight=\skip69
+\titlepagewinvoffset=\skip70
+\deletex@chapnumindent=\skip71
+
+("C:\Arquivos de programas\MiKTeX 2.5\tex\latex\carlisle\remreset.sty")
+\@float@every@codigo=\toks25
+\c@codigo=\count119
+\@float@every@quadro=\toks26
+\c@quadro=\count120
+) (deletexprojftt.def
+File: deletexprojftt.def 29/10/2008 
+)
+\@indexfile=\write4
+
+Writing index file ProjetoPROPPE.idx
+
+("C:\Documents and Settings\alvaro\Desktop\Projeto ProPPE\Repositório Tidia\Projeto em Latex\Documento de Requisito\Proj
+etoPROPPE\pre\watermark.tex") (ProjetoPROPPE.aux
+("C:\Documents and Settings\alvaro\Desktop\Projeto ProPPE\Repositório Tidia\Projeto em Latex\Documento de Requisito\Proj
+etoPROPPE\pre\listadeilustracoes.aux")
+("C:\Documents and Settings\alvaro\Desktop\Projeto ProPPE\Repositório Tidia\Projeto em Latex\Documento de Requisito\Proj
+etoPROPPE\pre\listadequadros.aux")
+("C:\Documents and Settings\alvaro\Desktop\Projeto ProPPE\Repositório Tidia\Projeto em Latex\Documento de Requisito\Proj
+etoPROPPE\pre\listadeabreviaturas.aux"))
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 178.
+LaTeX Font Info:    ... okay on input line 178.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 178.
+LaTeX Font Info:    ... okay on input line 178.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 178.
+LaTeX Font Info:    ... okay on input line 178.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 178.
+LaTeX Font Info:    ... okay on input line 178.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 178.
+LaTeX Font Info:    ... okay on input line 178.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 178.
+LaTeX Font Info:    ... okay on input line 178.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 178.
+LaTeX Font Info:    ... okay on input line 178.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 178.
+ ("C:\Arquivos de programas\MiKTeX 2.5\tex\latex\psnfss\t1ptm.fd"
+File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
+)
+("C:\Arquivos de programas\MiKTeX 2.5\tex\context\base\supp-pdf.tex"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count121
+\scratchdimen=\dimen116
+\scratchbox=\box39
+\nofMPsegments=\count122
+\nofMParguments=\count123
+\MPscratchCnt=\count124
+\MPscratchDim=\dimen117
+\MPnumerator=\count125
+\everyMPtoPDFconversion=\toks27
+) ABD: EveryShipout initializing macros
+Package hyperref Info: Link coloring OFF on input line 178.
+ ("C:\Arquivos de programas\MiKTeX 2.5\tex\latex\hyperref\nameref.sty"
+Package: nameref 2006/12/27 v2.28 Cross-referencing by name of section
+
+("C:\Arquivos de programas\MiKTeX 2.5\tex\latex\oberdiek\refcount.sty"
+Package: refcount 2006/02/20 v3.0 Data extraction from references (HO)
+)
+\c@section@level=\count126
+)
+LaTeX Info: Redefining \ref on input line 178.
+LaTeX Info: Redefining \pageref on input line 178.
+ (ProjetoPROPPE.out) (ProjetoPROPPE.out)
+\@outlinefile=\write5
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 189.
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 189.
+
+Overfull \hbox (2.84499pt too wide) in paragraph at lines 189--189
+ [][] 
+ []
+
+LaTeX Font Info:    Try loading font information for T1+phv on input line 189.
+("C:\Arquivos de programas\MiKTeX 2.5\tex\latex\psnfss\t1phv.fd"
+File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
+)
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <12> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 189.
+ [1{psfonts.map}
+
+]
+Overfull \hbox (2.84499pt too wide) in paragraph at lines 189--189
+ [][] 
+ []
+
+! pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.189 \maketitle
+                 [1
+
+]
+("C:\Documents and Settings\alvaro\Desktop\Projeto ProPPE\Repositório Tidia\Projeto em Latex\Documento de Requisito\Proj
+etoPROPPE\pre\listadeilustracoes.tex"
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <16> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 4.
+ (ProjetoPROPPE.lof)
+\tf@lof=\write6
+) [2
+
+
+
+]
+("C:\Documents and Settings\alvaro\Desktop\Projeto ProPPE\Repositório Tidia\Projeto em Latex\Documento de Requisito\Proj
+etoPROPPE\pre\listadequadros.tex" (ProjetoPROPPE.lop
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 1.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 1.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 1.
+)
+\tf@lop=\write7
+) [3
+
+
+
+]
+("C:\Documents and Settings\alvaro\Desktop\Projeto ProPPE\Repositório Tidia\Projeto em Latex\Documento de Requisito\Proj
+etoPROPPE\pre\listadeabreviaturas.tex") [4
+
+
+
+] (ProjetoPROPPE.toc
+Underfull \hbox (badness 10000) in paragraph at lines 2--2
+ []  
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--9
+ []  
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--10
+ []  
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--11
+ []  
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--12
+ []  
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--14
+ []  
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--15
+ []  
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--18
+ []  
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--19
+ []  
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--20
+ []  
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--21
+ []  
+ []
+
+)
+\tf@toc=\write8
+
+("C:\Documents and Settings\alvaro\Desktop\Projeto ProPPE\Repositório Tidia\Projeto em Latex\Documento de Requisito\Proj
+etoPROPPE\tex\projftt\levantamento.tex" [5
+
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [6
+
+]
+Overfull \hbox (11.13297pt too wide) in paragraph at lines 23--24
+\T1/ptm/m/n/12 vem preencher o for-mulário de in-scrição (disponível na sec-re-taria e no site da UniEVANGÉLICA)
+ []
+
+[7])
+("C:\Documents and Settings\alvaro\Desktop\Projeto ProPPE\Repositório Tidia\Projeto em Latex\Documento de Requisito\Proj
+etoPROPPE\tex\projftt\projetologico.tex" [8] [9])
+("C:\Documents and Settings\alvaro\Desktop\Projeto ProPPE\Repositório Tidia\Projeto em Latex\Documento de Requisito\Proj
+etoPROPPE\tex\projftt\projetofisico.tex" [10
+
+])
+("C:\Documents and Settings\alvaro\Desktop\Projeto ProPPE\Repositório Tidia\Projeto em Latex\Documento de Requisito\Proj
+etoPROPPE\tex\projftt\implementacao.tex" [11
+
+]) (ProjetoPROPPE.bbl [12
+
+]
+
+Package natbib Warning: Empty `thebibliography' environment on input line 3.
+
+)
+("C:\Documents and Settings\alvaro\Desktop\Projeto ProPPE\Repositório Tidia\Projeto em Latex\Documento de Requisito\Proj
+etoPROPPE\pos\apendice.tex" [13
+
+]
+! pdfTeX warning (ext4): destination with the same identifier (name{chapter.1}) has been already used, duplicate ignored
+
+<to be read again> 
+                   \relax 
+l.4 \chapter{Instruções}
+                        
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 10.
+ ("C:\Arquivos de programas\MiKTeX 2.5\tex\latex\psnfss\t1pcr.fd"
+File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
+)
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10.95> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 10.
+ [14
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [15] [16]
+! pdfTeX warning (ext4): destination with the same identifier (name{chapter.2}) has been already used, duplicate ignored
+
+<to be read again> 
+                   \relax 
+l.16 \chapter{Especificação dos casos de uso }
+                                              
+Package hyperref Info: bookmark level for unknown quadro defaults to 0 on input line 27.
+ [17
+
+] [18]
+! pdfTeX warning (ext4): destination with the same identifier (name{chapter.3}) has been already used, duplicate ignored
+
+<to be read again> 
+                   \relax 
+l.97 \chapter{Caracteristicas}
+                               [19
+
+]
+! pdfTeX warning (ext4): destination with the same identifier (name{chapter.4}) has been already used, duplicate ignored
+
+<to be read again> 
+                   \relax 
+l.142 ...bilidade das necessidades X Característi}
+                                                   [20
+
+]
+Underfull \hbox (badness 1629) in paragraph at lines 158--158
+[]\T1/ptm/m/n/12 Gerir in-for-mações ad-min-is-tra-ti-vas de forma
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 162--162
+[]\T1/ptm/m/n/12 Comunicação ágil com a co-mu-nidade
+ []
+
+[21
+
+] [22
+
+]
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 198.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\times' on input line 198.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 198.
+
+LaTeX Font Info:    Calculating math sizes for size <16> on input line 198.
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <16> not available
+(Font)              size <17.28> substituted on input line 198.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <16> not available
+(Font)              size <17.28> substituted on input line 198.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <16> not available
+(Font)              size <17.28> substituted on input line 198.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <16> on input line 198.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <11.19995> on input line 198.
+[23
+
+] [24
+
+] [25]
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\\' on input line 271.
+
+
+Overfull \hbox (3.681pt too wide) in paragraph at lines 275--329
+ [][] 
+ []
+
+) (ProjetoPROPPE.ind [26
+
+
+] [27] [28
+
+
+])
+("C:\Documents and Settings\alvaro\Desktop\Projeto ProPPE\Repositório Tidia\Projeto em Latex\Documento de Requisito\Proj
+etoPROPPE\pos\indice.tex") AED: lastpage setting LastPage (ProjetoPROPPE.aux
+("C:\Documents and Settings\alvaro\Desktop\Projeto ProPPE\Repositório Tidia\Projeto em Latex\Documento de Requisito\Proj
+etoPROPPE\pre\listadeilustracoes.aux")
+("C:\Documents and Settings\alvaro\Desktop\Projeto ProPPE\Repositório Tidia\Projeto em Latex\Documento de Requisito\Proj
+etoPROPPE\pre\listadequadros.aux")
+("C:\Documents and Settings\alvaro\Desktop\Projeto ProPPE\Repositório Tidia\Projeto em Latex\Documento de Requisito\Proj
+etoPROPPE\pre\listadeabreviaturas.aux"))
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 1.28pt have occurred.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 6437 strings out of 95419
+ 84640 string characters out of 1187062
+ 225686 words of memory out of 1188426
+ 9062 multiletter control sequences out of 60000
+ 42897 words of font info for 55 fonts, out of 1000000 for 2000
+ 15 hyphenation exceptions out of 8191
+ 39i,11n,38p,1295b,477s stack positions out of 5000i,500n,10000p,200000b,32768s
+PDF statistics:
+ 269 PDF objects out of 300000
+ 55 named destinations out of 300000
+ 145 words of extra memory for PDF output out of 10000
+
+! pdfTeX warning (dest): name{CHAPTER.6} has been referenced but does not exist, replaced by a fixed one
+
+! pdfTeX warning (dest): name{CHAPTER.5} has been referenced but does not exist, replaced by a fixed one
+
+! pdfTeX warning (dest): name{CHAPTER.4} has been referenced but does not exist, replaced by a fixed one
+
+! pdfTeX warning (dest): name{CHAPTER.3} has been referenced but does not exist, replaced by a fixed one
+
+! pdfTeX warning (dest): name{CHAPTER.2} has been referenced but does not exist, replaced by a fixed one
+
+! pdfTeX warning (dest): name{CHAPTER.1} has been referenced but does not exist, replaced by a fixed one
+
+{8r.enc}<C:/Arquivos de programas/MiKTeX 2.5/fonts/type1/urw/courier/ucrr8a.pfb><C:/Arquivos de programas/MiKTeX 2.5/fon
+ts/type1/urw/times/utmri8a.pfb><C:/Arquivos de programas/MiKTeX 2.5/fonts/type1/bluesky/cm/cmsy10.pfb><C:/Arquivos de pr
+ogramas/MiKTeX 2.5/fonts/type1/urw/times/utmb8a.pfb><C:/Arquivos de programas/MiKTeX 2.5/fonts/type1/urw/times/utmr8a.pf
+b><C:/Arquivos de programas/MiKTeX 2.5/fonts/type1/urw/helvetic/uhvb8a.pfb>
+Output written on ProjetoPROPPE.pdf (29 pages, 136932 bytes).

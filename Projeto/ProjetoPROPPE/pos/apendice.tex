@@ -1,0 +1,333 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%Apendices
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\chapter{Instruções}
+\index{Apêndice - A}
+%\thispagestyle{empty}%para a retirado do número da página
+
+\floatname{codigo}{Exemplo}
+ \small
+ \VerbatimInput[xleftmargin=5mm,numbers=left,obeytabs=true]{./outros/prog/insertionsort.c}
+% \caption{-- Função \texttt{insertionsort()} }
+ \label{code:prog4}
+%\end{codigo} 
+
+
+\chapter{Especificação dos casos de uso }
+\label{cha:AD}
+Preâmbulo
+
+Este documento fornece a especificação de vários casos de uso pertinentes a Disciplina.
+\ref{cha:AD}
+\section{Caso de Uso - Cadastrar Oferta de Disciplina}
+\label{sec:b1}
+
+\begin{quadro}[!htbp]
+\centering
+\caption{\ref{sec:b1} Caso de Uso - Cadastrar Oferta de Disciplina}
+\label{tab:casoAD1}
+\begin{tabular}{|l|p{11cm}|}
+\hline
+Caso de uso & Cadastrar Ofertas de Disciplina \\ 
+\hline
+ID & \ref{sec:b1} \\ 
+\hline
+Proposito & Este caso de uso tem como função o cadastramento  das disciplinas que serão ofertadas no semenstre. \\ 
+\hline
+Descrição &  \\ 
+\hline
+Ator(es) &  \\ 
+\hline
+Fluxo Principal & 01 Coordenação seleciona a Disciplina; \\ 
+ & 02 Coordenação seleciona o Docente que será responsavel pela Disciplina;  \\ 
+ & 03 Coordenação requisita a confirmação da operação; \\ 
+ & 04 Seistema confirma operação, cadastrando a Oferta de Disciplina. \\ 
+\hline
+Fluxo Alternativo & No item 03, caso o Docente não esteja disponível o sistema exibe uma mensagem para selecionar outro Docente. \\ 
+\hline
+Referências & Regras de Negocio: Não se aplica \\ 
+\cline{2-2}
+ & Não funcionais: NF 01, NF 02, NF 03, NF 04,NF 05, NF 06, NF 07 \\ 
+\hline
+Prioridade & Alta \\ 
+\hline
+\end{tabular}
+
+\end{quadro}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%Segundo caso de uso
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%-------------------------------------------------------
+\section{Caso de Uso -  Efetuar Pré-inscrição em Discipl}
+\label{sec:b2}
+
+\begin{quadro}[!htpb]
+\centering
+\caption{\ref{sec:b2} Caso de Uso -  Efetuar Pré-inscrição em Disciplina}
+\label{tab:casoAD2}
+\begin{tabular}{|l|p{11cm}|}
+\hline
+Caso de uso & Efetuar Pré-inscrição em Disciplina \\ 
+\hline
+ID & \ref{sec:b2} \\ 
+\hline
+Propósito & Este caso de uso tem como função realizar a pré-inscrição de alunos. \\ 
+\hline
+Descrição & Periodicamente, conforme a freqüência do curso a disciplina, o discente efetuará a sua pré-inscrição em uma ou mais disciplinas. Esta pré-inscrição só terá efeito, ou seja transforma-se-á em inscrição na disciplina caso o aval do orientador seja dado e , posteriormente, não houver nenhum indeferimento do participante responsável pela disciplina. Um e-mail é enviado para o aluno e para o respectivo orientador. Em ambos os casos é apresentada a lista de disciplinas nas quais o aluno se pré-inscreveu \\ 
+\hline
+Ator(es) & Aluno \\ 
+\hline
+Fluxo Principal & 01 Aluno seleciona Disciplina \\ 
+ & 02 Aluno requisita a confirmação da operação \\ 
+ & 03 Sistema confirma a operação, efetuando a pré-inscrição \\ 
+ & 04 Sistema envia e-mail para o aluno e para o orientador. \\ 
+\hline
+Fluxo Alternativo & No item 03, o sistema exibe mensagem contendo informações obrigatórias que não forma preenchidas e aquelas informações inconsistentes, o sistema sugere que sejam fornecidas e alteradas, respectivamente. \\ 
+\hline
+Referências & Regras de Negocio: Não se aplica \\ 
+\cline{2-2}
+ & Não funcionais: NF 01, NF 02, NF 03, NF 04,NF 05, NF 06, NF 07 \\ 
+\hline
+Prioridade & Alta \\ 
+\hline
+\end{tabular}
+\end{quadro}
+
+\chapter{Caracteristicas}
+\label{cha:caract}
+\begin{quadro}[!htbp]
+\centering
+\caption{Legenda das características}
+\label{tab:ledcarac}
+\begin{tabular}{l|l}
+\hline
+ & Legendas das Características \\ 
+\hline
+C1 & Informes \\ 
+\hline
+C2 & Consultar Informações sobre programa \\ 
+\hline
+C3 & Administração de disciplina \\ 
+\hline
+C4 & Administração de programa de pós-graduações \\ 
+\hline
+C5 & Acompanha projeto de pesquisa \\ 
+\hline
+C6 & Acompanhar processo de seleção \\ 
+\hline
+C7 & Administração de requerimento \\ 
+\hline
+C8 & Gerir relatórios \\ 
+\hline
+C9 & Gerenciar calendário do programa \\ 
+\hline
+C10 & Administração do corpo docente \\ 
+\hline
+C11 & Acompanhar processo de defesa de trabalho \\ 
+\hline
+C12 & Configurar regras \\ 
+\hline
+C13 & Avaliação do corpo docente \\ 
+\hline
+C14 & Gerir corpo social \\ 
+\hline
+C15 & Gerenciar taxas acadêmicas \\ 
+\hline
+\end{tabular}
+\end{quadro}
+
+
+%-------------------------------------------------------
+\chapter{Rastreabilidade das necessidades X Característi}
+\label{cha:necexcarac}
+
+Ver Quadro \ref{tab:neccar} na página \pageref{tab:neccar}
+
+\begin{landscape}
+\begin{quadro}[!htbp]
+\centering
+\caption{Necessidades X Características(consulte quadro \ref{tab:ledcarac}) do apêndice \ref{cha:caract}}
+\label{tab:neccar}
+\begin{tabular}{|l|p{8cm}|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|}
+\hline
+ &  & \multicolumn{15}{c|}{Características} \\ 
+\hline
+ & Necessidades & C1 & C2 & C3 & C4 & C5 & C6 & C7 & C8 & C9 & C10 & C11 & C12 & C13 & C14 & C15 \\ 
+\hline
+N1 & Gerir informações administrativas de forma rápida e confiável & X & X & X & X & X & X & X & X & X & X & X & X & X & X & X \\ 
+\hline
+N2 & Acompanhar a vida acadêmica dos estudantes &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  \\ 
+\hline
+N3 & Comunicação ágil com a comunidade acadêmica &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  \\ 
+\hline
+N4 & Seguir normas vigentes &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  \\ 
+\hline
+N5 & Facilitar o acesso a informações &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  \\ 
+\hline
+N6 & Gerenciar documentos &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  \\ 
+\hline
+N7 & Gerir processo de seleção &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  \\ 
+\hline
+N8 & Tratar requerimento &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  \\ 
+\hline
+N9 & Gerir calendário acadêmico &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  \\ 
+\hline
+N10 & Controle financeiro &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  \\ 
+\hline
+N11 & Manter registro de pessoas e instituições &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  \\ 
+\hline
+N12 & Informações &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  \\ 
+\hline
+N13 & Gerir processo de defesa de tese/dissertação &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  \\ 
+\hline
+N14 & Gerir projeto de pesquisa &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  \\ 
+\hline
+\end{tabular}
+
+\end{quadro}
+\end{landscape}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+Veja O Anexo \ref{cha:necexcarac} Tabela \ref{tab:neccar} da página \pageref{tab:neccar}.
+%-------------------------------------------------------
+\chapter{Rastreabilidade dos casos de uso $\times$ carac}
+\label{cha:rasusocarac}
+\setlongtables
+\begin{landscape}
+\begin{longtable}[c]{|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|}
+\caption{Rastreabilidade dos casos de uso x Características.}\label{tab:longa}\\
+\hline
+%Primeiro cabeçalho
+ & Caso de uso administração de disciplina & C1 & C2 & C3 & C4 & C5 & C6 & C7 & C8 & C9 & C10 & C11 & C12 & C13 & C14 & C15 \\ \hline\hline
+\endfirsthead
+%Segundo cabeçalho
+\multicolumn{17}{c}{\ref{tab:longa}\space(Continuação)}\\\hline
+ & Caso de uso administração de disciplina & C1 & C2 & C3 & C4 & C5 & C6 & C7 & C8 & C9 & C10 & C11 & C12 & C13 & C14 & C15 \\ \hline\hline
+\endhead
+\hline\multicolumn{17}{r}{(Continua)}\\
+\endfoot
+\hline\multicolumn{17}{r}{(Conclusão)}\\
+\endlastfoot
+1 & \ref{sec:b2}~Efetuar pré-inscrição em disciplina &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  \\ 
+\hline
+2 & Indeferir pré-inscrição &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  \\ 
+\hline
+3 &\ref{sec:b1}~Cadastrar oferta de disciplina  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  \\ 
+\hline
+4 &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  \\ 
+\hline
+5 &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  \\ 
+\hline
+6 &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  \\ 
+\hline
+7 &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  \\ 
+\hline
+8 &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  \\ 
+\hline
+9 &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  \\ 
+\hline
+10 &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  \\ 
+\hline
+11 &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  \\ 
+\hline
+12 &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  \\ 
+\hline
+13 &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  \\ 
+\hline
+14 &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  \\ 
+\hline
+15 &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  \\ 
+\hline
+16 &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  \\ 
+\hline
+17 &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  \\ 
+\hline
+18 &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  \\ 
+\hline
+19 &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  \\ 
+\hline
+20 & Requerer Aproveitamento de disciplina &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  \\ 
+\hline
+21 &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  \\ 
+\hline
+22 &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  \\ 
+\hline
+23 &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  \\ 
+\hline
+24 &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  \\ 
+\hline
+\end{longtable}
+\vspace{-44pt}
+
+\end{landscape}
+
+
+%-------------------------------------------------------
+\chapter{Características da Pós-graduação \\Stricto Sens}
+\label{cha:caracpos}
+\begin{quadro}[!htbp]
+\centering
+\begin{tabular}{|l|p{12cm}|l|}
+\hline
+ID & Característica e Descrição & Necessidades \\ 
+\hline
+C1 & Informes. As coordenações e demais instâncias superiores deverão fornecer informações para toda a comunidade de usuários, ou para categorias especificas. Calendário de programas, palestras e cursos oferecidos estão entre as possíveis informações a serem vinculadas em qualquer & \multicolumn{1}{c|}{N3} \\ 
+\hline
+ &  &  \\ 
+\hline
+ &  &  \\ 
+\hline
+ &  &  \\ 
+\hline
+ &  &  \\ 
+\hline
+ &  &  \\ 
+\hline
+ &  &  \\ 
+\hline
+ &  &  \\ 
+\hline
+ &  &  \\ 
+\hline
+ &  &  \\ 
+\hline
+ &  &  \\ 
+\hline
+ &  &  \\ 
+\hline
+ &  &  \\ 
+\hline
+ &  &  \\ 
+\hline
+ &  &  \\ 
+\hline
+ &  &  \\ 
+\hline
+ &  &  \\ 
+\hline
+ &  &  \\ 
+\hline
+ &  &  \\ 
+\hline
+ &  &  \\ 
+\hline
+ &  &  \\ 
+\hline
+ &  &  \\ 
+\hline
+ &  &  \\ 
+\hline
+\end{tabular}
+%-------------------------------------------------------
+\caption{Características da Pós-graduação Stricto Sensu}
+\label{tab:}
+\end{quadro}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+

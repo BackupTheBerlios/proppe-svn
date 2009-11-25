@@ -1,0 +1,7 @@
+\ProvidesFile{deletexprojftt.def}[29/10/2008 ]
+\newcommand{\titlepagespecificinfo}{\projfttspecificinfo}
+%\def\@cipspecificinfo{\projfttname}
+%\def\@approvalspecificinfo{\projfttapproval}
+\def\coordname{\PPGEEcoordname}
+\def\coord{\nominataCoord}
+\course{\ppgee}

@@ -1,0 +1,269 @@
+% Documento adaptado por Wagner Oliveira de Araujo <waoa@bol.com.b>
+% Versão 8.4 - 21/08/2008 - 15/10/2008 - Revisado: 02/09/2009
+% Meta-monografia de exemplo genérico de uso da classe deletex.cls
+% Copyright (C) 2004 Walter Fetter Lages <w.fetter@ieee.org>
+%
+% This file was adapted from:
+% $Id: iiufrgs.tex,v 4.6 2003/11/21 22:36:13 avila Exp $
+% Copyright (C) 2001,2003 UFRGS TeX Users Group
+%
+% This is free software, distributed under the GNU GPL; please take
+% a look in `deletex.cls' to see complete information on using, copying
+% and redistributing these files
+
+\documentclass[oneside,projftt]{deletex}
+
+\hyphenation{tra-ba-lhos}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%Criando o indice
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\makeindex
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%projeto para fabrica de tecnologia turing
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Pode ser informado como parâmetro opcional:
+%\documentclass[tese]{deletex}
+
+% projftt
+
+% para gerar uma versão somente-frente, basta utilizar a opção `oneside':
+% \documentclass[oneside]{deletex}
+
+% A opcao numbers pode ser usada para gerar referência numéricas.
+% A opcao sort&compress faz com que referencias do tipo [8,5,3,4] sejam
+% convertidas para [3-4,8]
+%\documentclass[numbers,sort&compress]{deletex}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%Espaçamento entre linhas
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\linespread{1.3}%uma linha e meia
+%Espaçamento entre linhas
+%\linespread{1.6}%uma linhas duplas
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%Formatando Paragrafos
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\setlength{\parindent}{1.5cm}
+%\setlength{\parskip}{1ex plus 0.5ex minus 0.2ex}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%Cabeçalho da Monografia
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\def\entidade{Nome da instituicao} \def\sigla{UniEVANGÉLICA}
+\def\entidade{Centro Universitário de Anápolis} \def\sigla{UniEVANGÉLICA}
+\def\curso{Fábrica de Tecnologia Turing}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%Titulo do Projeto
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\title{Sistema de Gerenciamento UniProPPE}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%Autor do Projeto
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\author{Rodrigues}{Álvaro Renan de Melo}
+% alguns documentos podem ter varios autores:
+\author{Junior}{Getulio Casemiro de Souza}
+\author{Lemos}{Vinícius Calaça}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%Orientador
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Para projeto e so alterar o nome
+%de orientador para coordenador
+\def\orientador{Coordenador}%Para projeto
+%\def\orientador{Orientador}%Para monografia,dissertações e teses
+\advisor[Prof.~Esp.]{Oliveira de Araujo}{Wagner}
+%\advisor[Titulação]{do Orientador}{Nome}%Para projeto anular este item
+%\advisorinfo{UniEVANGÉLICA}{Doutor pela (Instituição onde obteve o título -- Cidade, País)}
+\advisorinfo{Sigla da Instituição}{}
+
+
+% O comando \advisorwidth pode ser usado para ajustar o tamanho do campo
+% destinado ao nome do orientador, de forma a evitar que ocupe mais de uma linha 
+%\advisorwidth{0.55\textwidth}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%Co-Orientador
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Para projeto e so alterar o nome
+%de co-orientador para co-coordenador
+%\def\coorientador{Co-orientador}
+% obviamente, o co-orientador é opcional
+%\coadvisor[Prof.~Dr.]{do Co-orientador (se houver)}{Nome}
+%\coadvisorinfo{UFRGS}{Doutor pela (Instituição onde obteve o título -- Cidade, País)}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%Banca Examinadora
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\examiner[Prof.~Dr.]{do professor)}{(nome}
+%\examinerinfo{sigla da Instituição onde atual}{Doutor pela (Instituição onde obteve o título -- Cidade, %País)}
+\examiner[Titulação]{do Convidado 1)}{(Nome}
+\examinerinfo{Sigla da Instituição}{}
+\examiner[Titulação]{do Convidado 2)}{(Nome}
+\examinerinfo{Sigla da Instituição}{}
+\date{dia de mes}{2009}
+% a data deve ser a da defesa; se nao especificada, são gerados
+% mes e ano correntes
+%\date{02 de fevereiro}{2004}
+
+% o nome do curso pode ser redefinido (ex. para Monografias)
+%\course{Curso de Qualquer Coisa}
+
+% O local de realização do trabalho pode ser especificado (ex. para Monografias)
+% com o comando \location:
+\location{Anápolis}{GO}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ \renewcommand{\nominataReit}{Prof\textsuperscript{o}.~Me.~Carlos Hassel Mendes da Silva. }
+ \renewcommand{\nominataReitname}{Reitor}
+ \renewcommand{\nominataPRE}{Prof.~Dr.~Francisco Itami Campos.}%Prof.~Dr.~Pedro Cezar Dutra Fonseca
+ \renewcommand{\nominataPREname}{Pró-Reitor de Pós-Graduação, Pesquisa, Extensão.}%Pr{\'o}-Reitor de Ensino
+ \renewcommand{\nominataPRAPG}{Prof\textsuperscript{a}.~Dr\textsuperscript{a}.~Genilda Darc Bernardes.}
+ \renewcommand{\nominataPRAPGname}{Coordenadora Programa de Mestrado Multidisciplinar}
+ %\renewcommand{\nominataDir}{Prof.~Dr.~Renato Machado de Brito}
+ %\renewcommand{\nominataDirname}{Diretor da Escola de Engenharia}
+ %\renewcommand{\nominataCoord}{Prof\textsuperscript{a}.~Dr\textsuperscript{a}.~Genilda Darc Bernardes}
+ %\renewcommand{\nominataCoordname}{Coordenador do PPGEE}
+ %\renewcommand{\nominataBibchefe}{June Magda Rosa Schamberg}
+ %\renewcommand{\nominataBibchefename}{Bibliotec{\'a}ria-chefe}
+ %\renewcommand{\nominataChefeDELET}{Prof.~Dr.~Roberto Petry Homrich}
+ %\renewcommand{\nominataChefeDELETname}{Chefe do \delet}
+
+% A seguir são apresentados comandos específicos para alguns
+% tipos de documentos.
+
+% Relatório de Pesquisa [rp]:
+% \rp{123}             % numero do rp
+% \financ{CNPq, CAPES} % orgaos financiadores
+
+% Trabalho Individual [ti]:
+% \ti{123}     % numero do TI
+% \ti[II]{456} % no caso de ser o segundo TI
+
+% Monografias de Especialização [espec]:
+%\espec{Automação Industrial}      % nome do curso
+% \coord[Prof.]{Bazanella}{Alexandre Sanfelice} % coordenador do curso
+% \dept{DELET}                                 % departamento relacionado
+
+% Projeto de diplomação [dipl-ele] ou [dipl-ecp]:
+% Pode-se definir explicitamente o nome do curso (\course):
+% \course{\cgecp}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%Palavras Chaves
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% iniciar todas com letras minúsculas, 
+% exceto no caso de abreviaturas
+\keyword{Sistemas de Informação}
+\keyword{Processamento de Sinais}
+\keyword{Automação e Controle}
+\keyword{Eletrônica e Instrumentação}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%Marca Dagua
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{./pre/watermark}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%Inicio do Documento
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%O comando \maketile gera a capa, 
+%%%a folha de rosto e a folha de 
+%%%aprovacao (se for o caso)
+%%%às vezes é necessário redefinir 
+%%%algum comando logo antes de produzir
+%%%a Capa, folha de rosto e folha de 
+%%%aprovacao:
+%%%\renewcommand{\coordname}{Coordenadora do Curso}
+\maketitle
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%Elementos pre textuais
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\include{./pre/dedicatoria}%elementos sem titulo e sem indicativo numerico
+%\include{./pre/agradecimentos}
+%\include{./pre/epigrafe}%elementos sem titulo e sem indicativo numerico
+\include{./pre/listadeilustracoes}
+%\include{./pre/listadetabelas}
+\include{./pre/listadequadros}
+\include{./pre/listadeabreviaturas}
+%\include{./pre/listadesimbolos}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%Sumário
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\tableofcontents
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%Elementos para projeto final
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\linespread{1.3}
+\input{./tex/projftt/levantamento}
+\input{./tex/projftt/projetologico}
+\input{./tex/projftt/projetofisico}
+\input{./tex/projftt/implementacao}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%Elementos pos-textuais
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%Referências Bibliográficas
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\linespread{0.87}%Espaçamento entre linhas simples
+\bibliographystyle{abnt}
+\bibliography{./pos/bib/referencias}
+\thispagestyle{empty}%para a retirada do número da página
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%Bibliografia
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\input{./pos/refbib/bibliografia}
+\thispagestyle{empty}%para a retirada do número da página
+
+\linespread{1.3}%Espaçamento entre linhas um e meio
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%Glossário
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\input{./pos/glossario}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%Apêndices
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\appendix
+\input{./pos/apendice}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%Anexos
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\annex
+%\input{./pos/anexo}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%Indices
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\printindex
+\input{./pos/indice}
+
+
+
+
+\end{document}
